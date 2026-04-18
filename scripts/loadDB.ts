@@ -31,7 +31,9 @@ const f1_data = [
     'https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship',
     'https://www.formula1.com/en/results.html/2024/races.html',
     'https://www.formula1.com/en/racing/2024.html',
+    "http://azerbaijanf1.com/tr/2026-takvim"
 ];
+
 
 const client = new DataAPIClient(ASTRA_DB_APPLICATION_TOKEN);
 const db = client.db(ASTRA_DB_API_ENDPOINT!);
